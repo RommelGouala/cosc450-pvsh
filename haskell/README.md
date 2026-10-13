@@ -13,7 +13,7 @@ To compile and run the program, ensure GHC is installed and run the following co
 
 | Feature | Description | Status |
 |---------|-------------|--------|
-| Feature 1 | Data Ingestion & File I/O | Work in Progress |
+| Feature 1 | Data reading & File I/O | Work in Progress |
 | Feature 2 | Course Catalog Display | Work in Progress |
 | Feature 3 | Basic Class Add/Drop | Work in Progress |
 | Feature 4 | Student Schedule Viewing | Work in Progress |
