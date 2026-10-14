@@ -24,5 +24,5 @@ module Type where
         | CourseNotFound 
         | StudentNotFound 
         | AlreadyEnrolled 
-         NotEnrolled
+        | NotEnrolled
         deriving (Show, Eq)
