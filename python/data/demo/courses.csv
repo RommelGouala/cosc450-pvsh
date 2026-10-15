@@ -1,0 +1,9 @@
+course_id,title,capacity,prerequisites
+10240,Computer Science I,30,
+10241,Computer Science II,25,10240
+10345,Computer Organization,20,10241
+10350,Data Structures,20,10241
+10430,Programming Languages,3,10350
+10460,Operating Systems,15,10345;10350
+20236,Calculus I,30,
+20237,Calculus II,25,20236
