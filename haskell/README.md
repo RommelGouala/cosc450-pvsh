@@ -168,7 +168,7 @@ Enter your choice: 5
 Enter Student ID: 1001
 
 --- Schedule ---
-Intro to Haskell
+Intro Asian American Studies
 ```
 
 Saving and exiting:
