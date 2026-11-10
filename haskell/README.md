@@ -3,7 +3,7 @@
 **Project:** Functional vs. Object-Oriented Design in a Course Registration System  
 **Group 6:** Devesh Parekh and Rommel Gouala  
 **Stage:** Second-language implementation (Haskell)  
-**Language:** Haskell (purely functional programming style)
+**Language:** Haskell
 
 ## Requirements
 
