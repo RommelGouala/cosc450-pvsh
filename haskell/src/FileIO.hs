@@ -6,7 +6,6 @@ import qualified Data.ByteString.Lazy as BL
 import qualified Data.Vector as V
 import Data.Maybe (mapMaybe)
 import Data.List (intercalate)
-import System.IO (writeFile)
 
 -- | parse a semicolon-separated list of IDs
 -- returns an empty list for empty strings, otherwise splits by semicolon and parses to Int
