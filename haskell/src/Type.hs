@@ -2,6 +2,7 @@
 
 module Type where
 
+-- |  model representing a course
 data Course = Course {
     courseID :: Int,
     courseName :: String,
@@ -10,6 +11,7 @@ data Course = Course {
     prerequisites :: [Int] 
 } deriving (Show, Eq)
 
+-- | model representing a student
 data Student = Student{
     studentID :: Int,
     studentName :: String,
@@ -17,11 +19,13 @@ data Student = Student{
     completedCourses :: [Int] 
 } deriving (Show, Eq)
 
+-- | central state record holding all current student and course data
 data SystemState = SystemState {
     students :: [Student],
     courses  :: [Course]
 } deriving (Show, Eq)
 
+-- | custom algebraic data type representing specific registration and lookup failures
 data RegError 
     = CourseFull 
     | CourseNotFound 
